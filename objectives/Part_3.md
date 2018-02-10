@@ -25,6 +25,11 @@ To log into Hipergator, use this command, followed by your password:
 ```bash
 $ ssh your_username@hpg2.rc.ufl.edu
 ```
+Alternative way is to log into into Hipergator/Hydrogen account and download Miniconda to your home direcotry:
+
+```bash
+$ wget http://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
+```
 
 That will put you in your home directory. For me, that's where my file is. You can see if the file is there by typing ``ls``. To execute the script you just uploaded, you will need to change its permissions. To do this, type:
 
