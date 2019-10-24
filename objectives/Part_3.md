@@ -86,13 +86,13 @@ Then we'll edit the version of the configuration file under `/home/your_username
 ```
 username: # your UF HPC username
 mp_api: # your Materials Project API key. You can find your API key at https://materialsproject.org/open
-normal_binary: /home/mashton/vasp.5.4.1/bin/vasp # /path/to/std/vasp/
-executable. You are probably okay putting /home/mashton/vasp.5.4.1/bin/vasp
-twod_binary: /home/mashton/vasp.5.4.1/bin/vasp_noz  # /path/to/2D/vasp/executable
-vdw_kernel: /home/mashton/vasp.5.4.1/vdw_kernel.bindat  # /path/to/vdw_kernel.bindat file. Leave as null if the kernel is hard-coded into VASP. Ask the VASP manager in the group about this.
-potentials: /home/mashton/POTCARS  # /path/to/your/POTCAR/files
-queue_system: slurm
-queue_template: config_files/
+normal_binary: /home/joshuapaul/vasp_7-16-18_5.4.4/bin/vasp_std_O2  # /path/to/std/vasp/executable
+twod_binary: /home/joshuapaul/vasp_7-16-18_5.4.4/bin/vasp_noz  # /path/to/2D/vasp/executable
+vdw_kernel: /home/joshuapaul/vdw_kernel.bindat   # /path/to/vdw_kernel.bindat  (leave as null if the kernel is hard-coded into VASP):
+potentials: /home/jasongibson/POTCARS  # /path/to/POTCAR/files
+queue_system: slurm  # Change to pbs if on a PBS system
+queue_template: config_files/ # path/to/queue/template containing account info, processor config 'submit_script'
+
 ```
 
 Save and quit that file, and now you're ready to use MPInterfaces.
