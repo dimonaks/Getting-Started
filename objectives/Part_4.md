@@ -56,4 +56,8 @@ JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
 ```
 The main things to read from this output are the JOBID, ST (STatus) and TIME. ST is the job status, and "PD" means pending. The only other status you are likely to see is "R" for running. If you decide you want to cancel a pending or running job, type ``scancel JOBID``, where you should replace JOBID with the actual JOBID corresponding to the job. Sadly, if you notice that the TIME is getting close to the total walltime you requested for the job, there is very little you can do and your job will probably be killed by the SLURM scheduler. Just ask for more time the next time you submit.
 
+At this point it would be helpful to review the following video to solidify your understanding of the slurm submission script: https://training.it.ufl.edu/training/items/hipergator-slurm-scripts-for-mpi-jobs.html
+
+Additionally, review Hipergator has a training page: https://help.rc.ufl.edu/doc/Training
+
 [Previous](https://github.com/henniggroup/Getting-Started/blob/master/objectives/Part_3.md) | [Next](https://github.com/henniggroup/Getting-Started/blob/master/objectives/Part_5.md)
