@@ -1,5 +1,5 @@
 # Part 1: The Basics
-[Next](https://github.com/ashtonmv/Getting-Started/blob/master/objectives/Part_2.md)
+[Next](https://github.com/henniggroup/Getting-Started/blob/master/objectives/Part_2.md)
 
 It's your first day in the group! Hopefully you're already connected to another student who is "mentoring" you to help you get started. If that's not the case, then you can probably just ask whoever is sitting closest to you if they will help you out. Everyone in the group is very willing to help you or at least point you in the right direction if you have any questions, so don't be afraid to ask!
 

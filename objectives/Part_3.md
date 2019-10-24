@@ -1,5 +1,5 @@
 # Part 3: Set up environments on your computers
-[Previous](https://github.com/ashtonmv/Getting-Started/blob/master/objectives/Part_2.md) | [Next](https://github.com/ashtonmv/Getting-Started/blob/master/objectives/Part_4.md)
+[Previous](https://github.com/henniggroup/Getting-Started/blob/master/objectives/Part_2.md) | [Next](https://github.com/henniggroup/Getting-Started/blob/master/objectives/Part_4.md)
 
 The objectives in this part assume that you have an account on Hipergator and/or Stampede, so if those aren't set up for you yet, wait to do these things until they are.
 
@@ -97,4 +97,4 @@ queue_template: config_files/ # path/to/queue/template containing account info, 
 
 Save and quit that file, and now you're ready to use MPInterfaces.
 
-[Previous](https://github.com/ashtonmv/Getting-Started/blob/master/objectives/Part_2.md) | [Next](https://github.com/ashtonmv/Getting-Started/blob/master/objectives/Part_4.md)
+[Previous](https://github.com/henniggroup/Getting-Started/blob/master/objectives/Part_2.md) | [Next](https://github.com/henniggroup/Getting-Started/blob/master/objectives/Part_4.md)
