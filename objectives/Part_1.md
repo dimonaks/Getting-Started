@@ -18,4 +18,4 @@ The things you should try to take care of today are pretty simple and not resear
 6. **Mac users**: You already have an application called Terminal installed. It's recommended that you install [iTerm 2](https://www.iterm2.com/), an application that does everything Terminal does plus a few helpful extensions.
 7. Eventually, you will want a program for visualizing crystal structures on your computer. Most people in the group use [VESTA](http://jp-minerals.org/vesta/en/download.html) for day-to-day use, but if you find something else you like then go for it. The department also has a license to Crystal Maker, which makes nice PDF images for publications, etc.
 
-[Next](https://github.com/ashtonmv/Getting-Started/blob/master/objectives/Part_2.md)
+[Next](https://github.com/henniggroup/Getting-Started/blob/master/objectives/Part_2.md)
